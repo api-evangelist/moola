@@ -1,7 +1,16 @@
 aid: moola
 name: Moola
-description: 'Moola is a company surfaced as a portfolio company of polychain and added to the API Evangelist
-  network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  Moola Market is a non-custodial, decentralized liquidity protocol on the Celo
+  blockchain that democratizes access to yield and credit. Depositors earn
+  compound interest that is paid by borrowers who take out over-collateralized
+  loans, delegated loans, or flash loans. The protocol shares ancestry with the
+  Aave v2 codebase, is open source and independently audited, and issues
+  interest-bearing mTokens (mcUSD, mcEUR, mcREAL, mCELO) redeemable one-to-one
+  for the underlying Celo stable assets. Moola is a smart-contract protocol
+  rather than an HTTP API: developers integrate by calling on-chain contracts
+  (deposit, withdraw, borrow, repay, flash loan) from a supported wallet. Backed
+  by Polychain Capital.
 url: https://raw.githubusercontent.com/api-evangelist/moola/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +18,33 @@ x-backed-by:
 - polychain
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-chain: celo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://moola.market/assets/logo.svg
 tags:
 - Company
-- Defi
+- DeFi
+- Lending
+- Borrowing
+- Yield
+- Flash Loans
+- Celo
+- Blockchain
+- Smart Contracts
+- Cryptocurrency
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +54,30 @@ maintainers:
 common:
 - type: Website
   url: https://moola.market
+- type: Documentation
+  url: https://docs.moola.market/
+- type: DeveloperPortal
+  url: https://docs.moola.market/
+- type: GitHubOrganization
+  url: https://github.com/moolamarket
+- type: LLMsTxt
+  url: llms/moola-llms.txt
+- type: Support
+  url: http://discord.gg/NsphyqbESK
+- type: SignUp
+  url: https://app.moola.market/
+- type: TermsOfService
+  url: https://app.moola.market/#/terms
+- type: PrivacyPolicy
+  url: https://app.moola.market/#/privacy-policy
+- type: DomainSecurity
+  url: security/moola-domain-security.yml
+- type: X
+  url: https://twitter.com/moola_market
+- type: LinkedIn
+  url: https://www.linkedin.com/company/moola-market
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

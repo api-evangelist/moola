@@ -1,0 +1,29 @@
+generated: '2026-07-20'
+method: searched
+source: live probes of /.well-known/ on moola.market + app.moola.market + docs.moola.market
+note: >-
+  Moola Market is an on-chain DeFi lending protocol (an Aave v2 fork on the Celo
+  network); it exposes smart contracts, not an HTTP API, so no /.well-known/
+  discovery documents are published. All probes returned 404. Recorded for
+  auditability; no WellKnown pointer wired because nothing was found.
+hosts:
+- host: https://moola.market
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://app.moola.market
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+- host: https://docs.moola.market
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
