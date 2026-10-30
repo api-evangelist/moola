@@ -64,6 +64,85 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Moola is a company surfaced as a portfolio company of polychain and added to the API Evangelist network as a stub for enrichment. Sector: defi. This profile is a lead awaiting the enrichment pipeline.
+Moola Market is a non-custodial, decentralized liquidity protocol on the Celo blockchain that democratizes access to yield and credit. Depositors earn compound interest that is paid by borrowers who take out over-collateralized loans, delegated loans, or flash loans. The protocol shares ancestry with the Aave v2 codebase, is open source and independently audited, and issues interest-bearing mTokens (mcUSD, mcEUR, mcREAL, mCELO) redeemable one-to-one for the underlying Celo stable assets. Moola is a smart-contract protocol rather than an HTTP API: developers integrate by calling on-chain contracts (deposit, withdraw, borrow, repay, flash loan) from a supported wallet. Backed by Polychain Capital.
 
-Backed by: polychain — https://moola.market
+**Areas:** Company · DeFi · Lending · Borrowing · Yield · Flash Loans · Celo · Blockchain · Smart Contracts · Cryptocurrency
+
+## Moola on APIs.io
+
+Everything profiled for Moola is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/moola/](https://apis.io/providers/moola/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Moola Domain Security](https://apis.io/security/moola/moola-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://moola.market)
+- [Documentation](https://docs.moola.market/)
+- [Sign up](https://app.moola.market/)
+- [Support](http://discord.gg/NsphyqbESK)
+- [Terms of service](https://app.moola.market/#/terms)
+- [Privacy policy](https://app.moola.market/#/privacy-policy)
+- [GitHub](https://github.com/moolamarket)
+
+## API Evangelist rating
+
+**Kin Score 14.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 23.8 |
+| Access clarity | 23.7 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/moola/](https://apis.io/providers/moola/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Moola: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/moola/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
